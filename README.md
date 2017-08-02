@@ -3,7 +3,7 @@
 This is convolutional layer routines customized for chinese homemade Sunway TaihuLight supercomputer.
 The latest swDNN code has been move to our SWCaffe repo
 
-test interfaces : https://github.com/feifeibear/SWCaffe/tree/master/swdnn_test 
+test interfaces : https://github.com/feifeibear/SWCaffe/tree/master/swdnn_test   
 source code : https://github.com/feifeibear/SWCaffe/tree/master/src/swlayers
 
 This repo still contains orignal source code for the paper published on IPDPS 2017
