@@ -8,19 +8,16 @@ source code : https://github.com/feifeibear/SWCaffe/tree/master/src/swlayers
 This repo still contains orignal source code for the paper published on IPDPS 2017
 please ref : Fang J, Fu H, Zhao W, et al. swDNN: A Library for Accelerating Deep Learning Applications on Sunway TaihuLight[C]//Parallel and Distributed Processing Symposium (IPDPS), 2017 IEEE International. IEEE, 2017: 615-624.
 
-####swCNNv11~14
+### swCNNv11~14
 which contain unitest code for forward propagation with four different loop transformations.
 
-###swCNNv21
-contains a conplete conv layer implementaion with gradient updating for forward and backward propagation.
+### swCNNv21
+which contains a conplete conv layer implementaion with gradient updating for forward and backward propagation.
 
 please forgive us for our bad indentation, because we wrote the code on TaihuLight Server with a raw vim congfiguration.
 
 ###contact
 Jiarui Fang
-
 fang_jiarui@163.com
-
 Wenlai Zhao
-
 cryinlaugh@126.com
