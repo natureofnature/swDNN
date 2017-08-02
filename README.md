@@ -1,15 +1,26 @@
-###The repository contains test code for the paper -- swDNN: a Library for Efficient Deep Learning Applications on Sunway Supercomputer.
+## Brief Introduction :
+<img src="https://github.com/feifeibear/SWCaffe/blob/master/swdnnlogo.png" width = "300" height = "200" alt="swdnnlogo" align=center />
+This is convolutional layer routines customized for chinese homemade Sunway TaihuLight supercomputer.
+The latest swDNN code has been move to our SWCaffe repo
+test interfaces : https://github.com/feifeibear/SWCaffe/tree/master/swdnn_test
+source code : https://github.com/feifeibear/SWCaffe/tree/master/src/swlayers
 
+This repo still contains orignal source code for the paper published on IPDPS 2017
+please ref : Fang J, Fu H, Zhao W, et al. swDNN: A Library for Accelerating Deep Learning Applications on Sunway TaihuLight[C]//Parallel and Distributed Processing Symposium (IPDPS), 2017 IEEE International. IEEE, 2017: 615-624.
 
-swCNNv11~14 are unitest code for forward propagation with four different loop transformations.
+####swCNNv11~14
+which contain unitest code for forward propagation with four different loop transformations.
 
-swCNNv21    contains a conplete conv layer implementaion with gradient updating for forward and backward propagation.
+###swCNNv21
+contains a conplete conv layer implementaion with gradient updating for forward and backward propagation.
 
-./src         contains the fully-connected layer, the *convolutional layer*, the *activation functions* and the *padding operations* on 64 CPEs of SW26010 processors.
+please forgive us for our bad indentation, because we wrote the code on TaihuLight Server with a raw vim congfiguration.
 
-./test        contains the test code for GO network.
+###contact
+Jiarui Fang
 
-./lib         contains the library for blas and the support library for memory manageron 4 core groups.
+fang_jiarui@163.com
 
-2016.11.14 : support for *float* and *double* data formats
+Wenlai Zhao
 
+cryinlaugh@126.com
